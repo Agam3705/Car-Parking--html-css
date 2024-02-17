@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(https://www.e-architect.com/wp-content/uploads/2021/11/nowshahr-commercial-building-mazandaran-province-iran-m161121-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 58px;
+    color:rgb(255, 255, 255);
+    margin-left: -20px;
+}
+
+h2{
+    margin-left: -20px;
+    color:rgb(255, 255, 255);
+}
+
+ul {
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+.menu-bar {
+    /* background: rgb(145, 207, 236);  */
+    text-align: right;
+    cursor: pointer;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: rgb(233, 233, 233);
+    width: 65%;
+    text-align: center;}
+   
+.menu-bar ul li {
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    padding-left: 15px;
+    position: relative;
+    bottom:  0px;
+    transition: NONE;
+}
+.menu-bar ul li a {
+    text-decoration: none;
+    color: #e4e4e4;
+    text-transform: uppercase;
+}
+.menu-bar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left:  0;
+    right: 1;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.menu-bar ul li:hover::after {
+    width: 100%;
+}
+.welcome {
+    padding-top: 50px;
+    padding-left: 50px;    
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+.logo {
+    width: 130px;
+    cursor: pointer;
+    margin-top: -40px;
+    margin-left: 50px;
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 5px;
+}
+button {
+    width: 10%;
+    padding: 12px;
+    text-align: center;
+    margin: 20px 20px;
+    margin-left: -20px;
+    margin-right: 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(255, 255, 255);
+    background: transparent; 
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span {
+    background: rgb(58, 58, 58);
+    height: 150px;
+    width: 0px;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    /* transition: 0.5s; */
+}
+button:hover span {
+    width: 110%;
+}
+button:hover {
+    border: none;
+    color: rgb(255, 255, 255);
+    transform-style: preserve-3d;
+}
+.active, .menu-bar ul li:hover {
+    background: none;
+    border-radius: 3px;
+}
+
+.sub-menu-1 {
+    display:none;
+    transition: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: none;
+    margin-top: 15px;
+    margin-left: -70px;
+    cursor: pointer;
+    transition: none;
+} 
+
+.button_link button a {text-decoration: none;
+    color: #ffffff;
+    /* background-color: #cccccc63; */
+    text-transform: uppercase;}
+
+hr{
+    width: 87.5%;
+    margin-left: 12.5%;
+}

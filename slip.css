@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(91, 187, 183, 0.782);
+}
+.ticket1 {
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #505050;
+    background-image: url(https://th.bing.com/th/id/OIP.RUs4PTVEJi7_KXqcENXfkAHaE8?w=251&h=180&c=7&r=0&o=5&dpr=2&pid=1.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+  }
+  
+  .ticket1 h1 ,.ticket1 h2{
+    text-align: center;
+    color:aliceblue;
+    /* background-color: #5050506a; */
+  }
+  
+  .header1,.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:aliceblue;
+    background-color: #5050506a;
+  }
+  
+  img{
+    position: absolute;
+    width:100px;
+    height: 100px;
+    margin-left: 20px;
+    top:108px;
+ }
+
+  .barcode {
+    width: 150px;
+    height: 50px;
+    border: 1px solid #4a4141b7;
+    background-image: url(https://th.bing.com/th/id/R.8e6bd572c41492679e186b83e34373aa?rik=LuZPJ7qZ6sX0VQ&riu=http%3a%2f%2fwww.free-barcode.com%2ffbgEAN128.asp%3fbc%3d9374889681090024152262&ehk=kgVympLTo%2fBhZbSRxEwNG4rqB%2fV3rvZMR%2b%2fQz6eVRXk%3d&risl=&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:aliceblue
+  }
+  
+  
+  .car-details {
+    margin: 20px 0;
+    color:aliceblue;
+    background-color: #5050506a;
+  }
+  
+  
+  .car-details div {
+    display: flex;
+    justify-content: space-between;
+  }
